@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 24px;
+    font-family: 'Dosis', sans-serif;
+    background-color: #29262c;
+    margin:0;
+    height: 100%;
+  }
+  
+  .calculator {
+    border-radius: 7.5pt;
+    padding: 15pt;
+    width: 100%;
+    margin: 0.208333333in;
+    background-color: #967c6d;
+    max-width: 25pc;
+  
+  }
+  
+  .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+  
+  .button-wrapper {
+    height: 3.75pc;
+    flex-basis: 25%;
+    padding: 0.625pc;
+  }
+  
+  .button {
+    display: flex;
+    flex-direction: row;
+    border-image: none;
+    border-color: currentColor;
+    border-style: none;
+    border-width: medium;
+    border-radius: 0.052083333in;
+    align-items: center;
+    justify-content: center;
+    color: #d74742;
+    font-weight: 700;
+    font-size: 24px;
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+  }
+  
+  button {
+    appearance: auto;
+    font-style: ;
+    font-variant-ligatures: ;
+    font-variant-caps: ;
+    font-variant-numeric: ;
+    font-variant-east-asian: ;
+    font-variant-alternates: ;
+    font-variant-position: ;
+    font-stretch: ;
+    font-family: ;
+    font-optical-sizing: ;
+    font-kerning: ;
+    font-feature-settings: ;
+    font-variation-settings: ;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    text-align: center;
+    cursor: default;
+    margin: 0em;
+    padding-block: 1px;
+    padding-inline: 6px;
+  }
+  
+  #display {
+    display: flex;
+    flex-direction: row;
+    letter-spacing: 0.125pc;
+    background-color: #382325;
+    color: white;
+    height: 2.5pc;
+    padding: 0.625pc;
+    margin: 0.625pc;
+    border-radius: 0.052083333in;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .clear {
+    background-color: #923532;
+    color: white;
+  }
+  .equal {
+    background-color: #923532;
+    color: white;
+  }
